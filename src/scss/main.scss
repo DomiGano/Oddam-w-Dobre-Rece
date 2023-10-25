@@ -1,6 +1,11 @@
 @import "generic/reset";
 @import "../scss/settings/fonts";
+@import "../scss/settings/colors";
+
+@import "../scss/elements/navigation";
+@import "../scss/elements/home";
 
 body {
+    font-size: 18px;
     font-family: $font-base;
 }

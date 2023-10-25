@@ -1,0 +1,31 @@
+.navigation {
+    margin: 1em;
+    &__loginbar {
+        text-align: right;
+        margin-bottom: 1em;
+        padding: 1em;
+        &__link {
+            color: $gray;
+            font-size: 0.72em;
+            padding: 10px;
+            margin-bottom: 1em;
+            &--registration {
+                border: 1px Solid $yellow;
+            }
+        }
+    }
+    &__mainbar {
+        display: flex;
+        justify-content: flex-end;
+        &__link {
+            padding: 10px 20px;
+            a {
+                font-size: 1em;
+                color: $darkgray;
+            }
+            &--active {
+                border: 1px Solid $darkgray;
+            }
+        }
+    }
+}
