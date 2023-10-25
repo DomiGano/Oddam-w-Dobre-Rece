@@ -1,9 +1,21 @@
 .home {
     height: 923px;
-    background-position: -50vh;
     background-repeat: no-repeat;
+    background-position: -35vw;
     .container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
         width: 1350px;
         margin: 0 auto;
+        .home__content {
+            margin-top: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 60%;
+        }
     }
 }
