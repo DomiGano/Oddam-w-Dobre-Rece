@@ -1,13 +1,21 @@
 @import "generic/reset";
 @import "../scss/settings/fonts";
 @import "../scss/settings/colors";
-
-@import "../scss/elements/navigation";
-@import "../scss/elements/home";
 @import "../scss/elements/_basicTitle";
 @import "../scss/elements/_basicButton";
+
+@import "../scss/elements/home";
+@import "../scss/elements/navigation";
+@import "../scss/elements/statistics";
 
 body {
     font-size: 18px;
     font-family: $font-base;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    max-width: 1350px;
+    margin: 0 auto;
 }

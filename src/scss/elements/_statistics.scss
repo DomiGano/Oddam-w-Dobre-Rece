@@ -1,0 +1,28 @@
+.statistics {
+    height: 384px;
+    .container {
+        align-items: center;
+        justify-content: space-around;
+        .statistics__box {
+            text-align: center;
+            width: 330px;
+            color: $darkgray;
+            &__number {
+                font-weight: 300;
+                font-size: 5em;
+                line-height: 122px;
+            }
+            &__title {
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            &__description {
+                font-family: $font-alt;
+                font-weight: 300;
+                margin-top: 18px;
+                font-size: 0.9em;
+                line-height: 1.8em;
+            }
+        }
+    }
+}

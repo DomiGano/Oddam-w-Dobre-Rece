@@ -3,11 +3,13 @@ import { Navigation } from "./Navigation";
 import homeBackground from "../assets/Home-Hero-Image.jpg"
 import { Title } from "./Title";
 import { Button } from "./Button";
+import { Statistics } from "./Statistics";
 
 export const Home = () => {
     
 
     return (
+        <>
         <section className="home" style={{backgroundImage: `url(${homeBackground})`}}>
             <div className="container">
                 <Navigation/>
@@ -18,5 +20,7 @@ export const Home = () => {
                 </div>
             </div>
         </section>
+        <Statistics/>
+        </>
     )
 }
