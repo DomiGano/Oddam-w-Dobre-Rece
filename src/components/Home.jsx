@@ -4,6 +4,7 @@ import homeBackground from "../assets/Home-Hero-Image.jpg"
 import { Title } from "./Title";
 import { Button } from "./Button";
 import { Statistics } from "./Statistics";
+import { Steps } from "./Steps";
 
 export const Home = () => {
     
@@ -14,13 +15,14 @@ export const Home = () => {
             <div className="container">
                 <Navigation/>
                 <div className="home__content">
-                    <Title text="Zacznij pomagać!" text2="Oddaj niechciane rzeczy w zaufane ręce"/>
+                    <Title text={"Zacznij pomagać!"} text2={"Oddaj niechciane rzeczy w zaufane ręce"}/>
                     <Button text="ODDAJ RZECZY" link="/login"></Button>
                     <Button text="ZORGANIZUJ ZBIÓRKĘ" link="/login"></Button>
                 </div>
             </div>
         </section>
         <Statistics/>
+        <Steps/>
         </>
     )
 }

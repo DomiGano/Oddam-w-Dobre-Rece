@@ -13,7 +13,7 @@ export const Navigation = () => {
             <ul className="navigation__mainbar">
                 <li className="navigation__mainbar__link navigation__mainbar__link--active"><a href="#">Start</a></li>
                 <li className="navigation__mainbar__link"><a href="#">O nas</a></li>
-                <li className="navigation__mainbar__link"><a href="#">O co chodzi?</a></li>
+                <li className="navigation__mainbar__link"><a href="#steps">O co chodzi?</a></li>
                 <li className="navigation__mainbar__link"><a href="#">Fundacja i organizacje</a></li>
                 <li className="navigation__mainbar__link"><a href="#">Kontakt</a></li>
             </ul>
