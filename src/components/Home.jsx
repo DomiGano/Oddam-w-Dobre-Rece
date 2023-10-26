@@ -5,6 +5,7 @@ import { Title } from "./Title";
 import { Button } from "./Button";
 import { Statistics } from "./Statistics";
 import { Steps } from "./Steps";
+import { About } from "./About";
 
 export const Home = () => {
     
@@ -23,6 +24,7 @@ export const Home = () => {
         </section>
         <Statistics/>
         <Steps/>
+        <About/>
         </>
     )
 }
