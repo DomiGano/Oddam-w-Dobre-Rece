@@ -1,11 +1,11 @@
 import React from "react";
 import { Title } from "./Title";
-import { Button } from "./Button";
 import { Step } from "./Step";
 import icon1 from "../assets/Icon-1.svg"
 import icon2 from "../assets/Icon-2.svg"
 import icon3 from "../assets/Icon-3.svg"
 import icon4 from "../assets/Icon-4.svg"
+import { LinkButton } from "./LinkButton";
 
 export const Steps = () => {
     const stepsData = [{
@@ -49,7 +49,7 @@ return (
                 </div>
             </div>
         </div>
-        <Button text="ODDAJ RZECZY" link="/login"></Button>
+        <LinkButton text="ODDAJ RZECZY" link="/login"></LinkButton>
     </section>
     )
 }

@@ -9,7 +9,8 @@
             font-size: 0.72em;
             padding: 10px;
             margin-bottom: 1em;
-            &--registration {
+            border: 1px Solid transparent;
+            &:hover{
                 border: 1px Solid $yellow;
             }
         }
@@ -19,11 +20,13 @@
         justify-content: flex-end;
         &__link {
             padding: 10px 20px;
+            border: 1px Solid transparent;
             a {
                 font-size: 1em;
                 color: $darkgray;
+                
             }
-            &--active {
+            &:hover{
                 border: 1px Solid $darkgray;
             }
         }

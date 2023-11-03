@@ -2,10 +2,11 @@ import React from "react";
 import { Navigation } from "./Navigation";
 import homeBackground from "../assets/Home-Hero-Image.jpg"
 import { Title } from "./Title";
-import { Button } from "./Button";
 import { Statistics } from "./Statistics";
 import { Steps } from "./Steps";
 import { About } from "./About";
+import { Fundations } from "./Fundations";
+import { LinkButton } from "./LinkButton";
 
 export const Home = () => {
     
@@ -17,14 +18,15 @@ export const Home = () => {
                 <Navigation/>
                 <div className="home__content">
                     <Title text={"Zacznij pomagać!"} text2={"Oddaj niechciane rzeczy w zaufane ręce"}/>
-                    <Button text="ODDAJ RZECZY" link="/login"></Button>
-                    <Button text="ZORGANIZUJ ZBIÓRKĘ" link="/login"></Button>
+                    <LinkButton text="ODDAJ RZECZY" link="/login"></LinkButton>
+                    <LinkButton text="ZORGANIZUJ ZBIÓRKĘ" link="/login"></LinkButton>
                 </div>
             </div>
         </section>
         <Statistics/>
         <Steps/>
         <About/>
+        <Fundations />
         </>
     )
 }

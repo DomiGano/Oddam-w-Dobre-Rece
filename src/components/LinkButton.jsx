@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export const Button = (props) => {
+export const LinkButton = (props) => {
     const words = props.text.split(' ');
 
     return (
