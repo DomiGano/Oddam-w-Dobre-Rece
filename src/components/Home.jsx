@@ -7,6 +7,7 @@ import { Steps } from "./Steps";
 import { About } from "./About";
 import { Fundations } from "./Fundations";
 import { LinkButton } from "./LinkButton";
+import { Contact } from "./Contact";
 
 export const Home = () => {
     
@@ -27,6 +28,7 @@ export const Home = () => {
         <Steps/>
         <About/>
         <Fundations />
+        <Contact />
         </>
     )
 }
