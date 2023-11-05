@@ -4,6 +4,7 @@
     .container {
         align-items: center;
         justify-content: space-around;
+        flex-direction: row;
         .statistics__box {
             text-align: center;
             width: 330px;
