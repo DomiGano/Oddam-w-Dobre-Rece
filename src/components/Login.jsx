@@ -41,7 +41,7 @@ export const Login = () => {
                 />
             </div>
             <div className="buttons__box">
-            <Link to="/register"><button className="basic__button button button--left">Zarejestruj się</button></Link>
+            <Link to="/registration"><button className="basic__button button button--left">Zarejestruj się</button></Link>
             <button className="basic__button button button--right">Zaloguj się</button>
             </div>
             </form>
