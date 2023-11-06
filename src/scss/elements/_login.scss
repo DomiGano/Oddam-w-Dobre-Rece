@@ -1,10 +1,4 @@
 .container {
-    .button {
-        margin: 4em;
-        font-size: 1em;
-        width: auto;
-        height: auto;
-    }
 
     .info__box {
         margin: 5em;
@@ -27,15 +21,20 @@
         justify-content: center;
         background-color: $white;
         width: 385px;
+
+        .error {
+          color: red;
+          font-size: 0.8em;
+        }
         .login__label {
-            margin-bottom: 1em;
+            margin-top: 1em;
             display: inline-block;
             align-self: flex-start;
         }
   
         .login__input {
             display: inline-block;
-            margin-bottom: 1em;
+            margin: 1em 0;
         }
       }
   
@@ -44,6 +43,11 @@
         width: 385px;
         display: flex;
         justify-content: space-between;
+        .button {
+          font-size: 1em;
+          height: auto;
+          width: auto;
+      }
 
       
 
