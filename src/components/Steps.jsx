@@ -9,7 +9,7 @@ import { LinkButton } from "./LinkButton";
 
 export const Steps = () => {
     const stepsData = [{
-        
+        id: 1,
         icon: icon1,
         title: "Wybierz rzeczy",
         description: "ubrania, zabawki, sprzęt i inne"
